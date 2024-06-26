@@ -13,9 +13,9 @@ os.environ["ANTHROPIC_API_KEY"] = "YOUR ANTHROPIC API KEY"
 os.environ["GEMINI_API_KEY"] = "YOUR GEMINI API KEY"
 
 # Define the models to be used for each stage
-ORCHESTRATOR_MODEL = "gemini/gemini-1.5-flash-latest"
-SUB_AGENT_MODEL = "gemini/gemini-1.5-flash-latest"
-REFINER_MODEL = "gemini/gemini-1.5-flash-latest"
+ORCHESTRATOR_MODEL = "ollama/deepseek-code-v2"
+SUB_AGENT_MODEL = "ollama/deepseek-code-v2"
+REFINER_MODEL =   "ollama/deepseek-code-v2"
 
 # Initialize the Rich Console
 console = Console()
